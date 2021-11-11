@@ -1,10 +1,14 @@
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
 .header{
     height: 39px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 .link{
-    margin-left: 10px;
+    margin-left: 20px;
     color: #FED136;
     font-family: Montserrat;
     font-style: normal;
@@ -12,8 +16,12 @@
     font-size: 14px;
     line-height: 41px;   
     text-transform: uppercase; 
+    display: inline-block;
 }
-
+.uli{
+    display: flex;
+    
+}
 
 .href{
     text-decoration: none;
@@ -27,27 +35,27 @@
     font-size: 40px;
     line-height: 75px;
     text-transform: uppercase;
-
+display: flex;
+justify-content: center;
 
 
 }
 .Sevic{
-margin-left: 700px;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 .pos{
 font-family: Roboto Slab;
 font-size: 14px;
 line-height: 16px;
-margin-top: 100px;
 letter-spacing: -0.35px;
 width: 304px;
-height: 56px;
 color: #777777;
 position: relative;
-margin-left: -400px;
-display: inline-block;
+text-align: center;
 }
+
 .span{
     font-family: Montserrat;
     font-style: normal;
@@ -57,26 +65,28 @@ display: inline-block;
     letter-spacing: -0.45px;
     color: #222222;
     display: flex;
+    justify-content: center;
+}
+.rel{
+    border: 3px solid #FED136;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    background: url("./Combined\ shape\ 134.png") no-repeat;
+    background-position: center;
+    margin: 0 auto;
+    
+}
+.rel2{
+    background: url("./Combined\ shape\ 132.png") no-repeat;
+    background-position: center;
+}
+.rel3{
+    background: url("./Combined\ shape\ 130.png") no-repeat;
+    background-position: center;
+}
+.cen{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    text-align: center;
-}
-.Circle{
-position: absolute;
-bottom: 30px;
-left: 30px;
-}
-.C134{
-position: absolute;
-bottom: 50px;
-left: 48px;
-}
-.c1{
-    position: absolute;
-    left: 52px;
-}
-.b{
-margin-left: 100px;
-}
-.c{
-    margin-left: 100px;
 }
